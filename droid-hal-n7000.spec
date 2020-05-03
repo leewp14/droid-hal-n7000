@@ -14,6 +14,17 @@
     #define MALI_QUIRKS 1
 %{nil}
 
+%define straggler_files \
+    /res \
+    /charger \
+    /file_contexts \
+    /property_contexts \
+    /seapp_contexts \
+    /selinux_version \
+    /sepolicy \
+    /service_contexts \
+%{nil}
+
 %include rpm/dhd.local/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
