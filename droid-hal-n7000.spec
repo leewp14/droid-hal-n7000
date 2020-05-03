@@ -14,7 +14,7 @@
     #define MALI_QUIRKS 1
 %{nil}
 
-%include rpm/dhd/droid-hal-device.inc
+%include rpm/dhd.local/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
