@@ -15,6 +15,25 @@
 #define EXYNOS4210_ENHANCEMENTS 1\
 %{nil}
 
+%define straggler_files \
+/acct \
+/cache \
+/d \
+/oem \
+/res \
+/storage \
+/bugreports \
+/charger \
+/file_contexts.bin \
+/property_contexts \
+/sdcard \
+/seapp_contexts \
+/selinux_version \
+/sepolicy \
+/service_contexts \
+/vendor \
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
