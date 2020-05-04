@@ -11,6 +11,8 @@
 
 %define android_config \
 #define MALI_QUIRKS 1\
+#define EXYNOS4_ENHANCEMENTS 1\
+#define EXYNOS4210_ENHANCEMENTS 1\
 %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
